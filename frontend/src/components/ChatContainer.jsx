@@ -28,7 +28,7 @@ const ChatContainer = () => {
     </div>
    )
   }
-   console.log("messages are" + JSON.stringify(messages));
+   //console.log("messages are" + JSON.stringify(messages));
   return (
     <div className='flex-1 flex flex-col overflow-auto'>
       <ChatHeader/>
